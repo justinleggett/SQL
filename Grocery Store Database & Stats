@@ -1,0 +1,25 @@
+create table store (id integer primary key, item text, section text, price integer, quantity integer); 
+
+insert into store values (1, 'Chicken', 'Meat', ' 5.99', 32); 
+insert into store values (2, 'Protein Powder', 'Supplaments', '54.99', 25);
+insert into store values (3, 'T-Bone Steak', 'Meat', '24.50', 12);
+insert into store values (4, 'Strawberries', 'Fruit', '3.99', 43);
+insert into store values (5, 'Peanut Butter', 'Spreads', '2.59', 30);
+insert into store values (6, 'Bread', 'Grains', '1.99', 60);
+insert into store values (7, 'Butter', 'Diary', '1.05', 57);
+insert into store values (8, 'Chips', 'Snacks', '2.99', 100);
+insert into store values (9, 'Bananas', 'Fruit', '2.00', 23);
+insert into store values (10, 'Resses Pieces', 'Candy', '0.99', 12);
+insert into store values (11, 'Avacados', 'Fruit', '2.50', 60);
+insert into store values (12, 'Pizza Bites', 'Frozen', '9.99', 37);
+Insert into store values (13, 'Greek Yogurt', 'Diary', '4.25', 8);
+Insert into store values (14, 'Carrots', 'Vegtables', '1.79', 120);
+insert into store values (15, 'Vitamin C', 'Pharmacy', '5.99', 9);
+
+select * from store
+order by price asc;
+
+select price 'avg fruit price item'
+from store
+where section='fruit';
+
