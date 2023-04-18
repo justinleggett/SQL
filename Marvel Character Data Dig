@@ -1,4 +1,4 @@
-/* Put your data in here and query it! */
+-/* Put your data in here and query it! */
 CREATE TABLE Marvels (ID INTEGER PRIMARY KEY,
     Name TEXT,
     Popularity INTEGER,
