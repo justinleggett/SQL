@@ -1,4 +1,4 @@
-create table store (id integer primary key, item text, section text, price integer, quantity integer); 
+-create table store (id integer primary key, item text, section text, price integer, quantity integer); 
 
 insert into store values (1, 'Chicken', 'Meat', ' 5.99', 32); 
 insert into store values (2, 'Protein Powder', 'Supplaments', '54.99', 25);
