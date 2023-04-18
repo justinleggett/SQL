@@ -1,4 +1,4 @@
-I'm querying a database that's holding Nexflix data to answer questions about the data. 
+--I'm querying a database that's holding Nexflix data to answer questions about the data. 
 
 How many movie titles are there in the database? (movies only, not tv shows) 
 select count(*) 
